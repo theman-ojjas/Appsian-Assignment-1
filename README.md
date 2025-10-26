@@ -31,3 +31,7 @@ Navigate to the frontend folder:
 cd frontend
 npm install
 npm start
+
+```
+### Deployment link
+   https://mini-project-manager-ui.vercel.app](https://basic-task-manager-ui.vercel.app/
