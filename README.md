@@ -1,4 +1,4 @@
-# Project Name
+# Basic Task Manager
 
 ## Setup Instructions
 
