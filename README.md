@@ -1,47 +1,33 @@
-Project Name
-Setup Instructions
-Backend (C# .NET)
+# Basic Task Manager
 
-Navigate to the backend folder:
+## Setup Instructions
 
-cd Backend
+### Backend (C# .NET)
 
-Restore .NET dependencies:
+1. Navigate to the backend folder:
+   ```bash
+   git clone https://github.com/theman-ojjas/Appsian-Assignment-1.git
+   cd Backend
+   
+2. Install dependencies (if any are managed via npm for tooling):
 
-dotnet restore
+   ```bash
+   npm install
 
-Build the project:
+3. Build the project:
 
-dotnet build
+   ```bash
+   dotnet build
 
-Run the backend:
+4. Run the backend:
 
-dotnet run
-The backend should now be running on the configured port (usually https://localhost:5001 or http://localhost:5000).
+   ```bash
+   dotnet run
 
-Note: C# .NET projects typically don't use npm install for the backend. If you have any Node.js tooling or frontend assets in your backend folder, you may need npm install, but the standard approach is to use dotnet restore to restore NuGet packages.
-
-Frontend (React)
-
+### Frontend (React)
 Navigate to the frontend folder:
 
-bash   cd frontend
-
-Install dependencies:
-
-bash   npm install
-
-Start the frontend development server:
-
-bash   npm start
-The frontend should now be running on http://localhost:3000.
-Quick Start
-To run both backend and frontend together, you can use two terminal windows:
-Terminal 1 (Backend):
-bashcd Backend
-dotnet restore
-dotnet run
-Terminal 2 (Frontend):
-bashcd frontend
+```bash
+cd frontend
 npm install
 npm start
